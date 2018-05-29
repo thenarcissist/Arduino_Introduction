@@ -10,7 +10,7 @@
   Download and run the Arduino IDE setup - [Arduino-1.8.5-windows.exe](https://downloads.arduino.cc/arduino-1.8.5-windows.exe). <br/>
         
 ### MacOS
-    1. Download the Application zip file - [Arduino-1.8.5-macosx.zip](https://downloads.arduino.cc/arduino-1.8.5-macosx.zip).<br/>
+   1. Download the Application zip file - [Arduino-1.8.5-macosx.zip](https://downloads.arduino.cc/arduino-1.8.5-macosx.zip).<br/>
 
   2. Extract the zip file.
   
