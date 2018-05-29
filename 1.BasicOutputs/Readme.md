@@ -1,5 +1,5 @@
 # Change the Intensity of Led through Arduino
 
-  Using the inbulit functions of arduino increase the intensity of from minimum to maximum and then to minimum
+Using the inbuilt functions of Arduino increase the intensity of from minimum to maximum and then to a minimum.
   
-  Complete the above mentioned code to achieve the task
+ Complete the above-mentioned code to achieve the task.
