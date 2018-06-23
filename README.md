@@ -23,7 +23,7 @@
   5. You are done! 
 
 ### Ubuntu (Linux)
-   1. Download the package which fits your system. (For  64 Bit go to [Arduino-1.8.5-linux64.tar.xz])(https://downloads.arduino.cc/arduino-1.8.5-linux64.tar.xz)<br/>
+   1. Download the package which fits your system. (For  64 Bit go to [Arduino-1.8.5-linux64.tar.xz](https://downloads.arduino.cc/arduino-1.8.5-linux64.tar.xz))<br/>
      
    2. Go to your downloads folder and extract the archive.
    
