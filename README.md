@@ -1,55 +1,37 @@
-# Elektronica Arduino Introductory Session 
+# Elektronica's Introduction to Arduino
+
+## Getting Started 
 
 ### Basic Requirements
+
 * Arduino IDE (That's it!) :wink:  
+* Not quite. You'll need an Arduino Board and a USB cable too.
+* You might also want some input-output devices such as sensors and LEDs too.
 
-##  Arduino IDE Installation Guide
+## Arduino
+
+### What's an Arduino?
+You can think of Arduino as a small computer which you can program to do small tasks. It can read inputs and control various external electronic/electrical components connected to it. In slightly more technical terms, it is a microcontroller.
+
+The official [website](https://www.arduino.cc) says:
+> Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software. It’s intended for artists, designers, hobbyists, and anyone interested in creating interactive objects or environments.
+
+For the philosophy behind Arduino watch this [video](https://www.ted.com/talks/massimo_banzi_how_arduino_is_open_sourcing_imagination).
+
+### The IDE
+For ease in programming the folks at Arduino have created an Integrated Development Environment. It can be used to write and upload programs to the board. The installation instructions can be found [here](0.Introduction/0.2-IDE.md).
+
+###TinkerCAD
+If you do not have access to an Arduino, you can simulate the basic stuff using [TinkerCAD](https://www.tinkercad.com).
+
+## About this repo
+###Contents
+0. [Introduction](0.Introduction/0.1-Introduction.md)
+1. [Basic Outputs](1.BasicOutputs/1-BasicOutputs.md)
+2. [Sensor Inputs](2.SensorInputs/2-SensorInputs.md)
+3. [Inputs and Outputs](3.InputOutput/3-InputOutput.md)
 
 
-### Windows
-  Download and run the Arduino IDE setup - [Arduino-1.8.5-windows.exe](https://downloads.arduino.cc/arduino-1.8.5-windows.exe). <br/>
-        
-### MacOS
-   1. Download the Application zip file - [Arduino-1.8.5-macosx.zip](https://downloads.arduino.cc/arduino-1.8.5-macosx.zip).<br/>
 
-  2. Extract the zip file.
-  
-  3. Open the extracted folder.
-    ![Image](https://www.arduino.cc/en/uploads/Guide/Mac_Download.jpg)
-  
-  4. Copy the Arduino application into the Applications folder 
-    ![image](https://www.arduino.cc/en/uploads/Guide/MAC_App.jpg)
-  
-  5. You are done! 
 
-### Ubuntu (Linux)
-   1. Download the package which fits your system. (For  64 Bit go to [Arduino-1.8.5-linux64.tar.xz])(https://downloads.arduino.cc/arduino-1.8.5-linux64.tar.xz)<br/>
-     
-   2. Go to your downloads folder and extract the archive.
-   
-   3. Open the terminal and change the working directory to Downloads.
-   ```Shell
-cd Downloads
-   ```
-   4. Delete the archive. 
-   3. Open the terminal and change the working directory to Downloads.
-   ```Shell
-sudo rm -r arduino-1.8.5-linux64.tar.gz
-   ```
-   5. Change your working directory to the extracted folder.
-   ```Shell
-cd /arduino-1.8.5
-   ```
-  6. Open the install shell script with an editor and if necessary change the line "RESOURCE_NAME=cc.arduino.arduinoide" to "RESOURCE_NAME=arduino-arduinoide".
- ```Shell
-sudo nano install.sh
- ```
-The result should look like this:  
-  ![Image](http://i67.tinypic.com/2mnkocj.png)
 
-  7. Make the file executable and run it.
-  ```Shell
-   sudo chmod +x install.sh
-./install.sh
-  ```
-  8. You are done! :sunglasses:
