@@ -25,7 +25,7 @@ For ease in programming the folks at Arduino have created an Integrated Developm
 If you do not have access to an Arduino, you can simulate the basic stuff using [TinkerCAD](https://www.tinkercad.com).
 
 ## About this repo
-###Contents
+### Contents
 0. [Introduction](0.Introduction/0.1-Introduction.md)
 1. [Basic Outputs](1.BasicOutputs/1-BasicOutputs.md)
 2. [Sensor Inputs](2.SensorInputs/2-SensorInputs.md)
